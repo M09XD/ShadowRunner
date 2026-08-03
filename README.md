@@ -32,11 +32,15 @@ The project includes a React frontend (Canvas rendering), a Spring Boot REST/Web
 
 ## Screenshots
 
-<!-- TODO: Add screenshots to docs/screenshots/ and update paths below -->
+| Main Menu | Gameplay | Battle |
+|-----------|----------|--------|
+| ![Main menu placeholder](Menu.jpg) | ![Gameplay placeholder](frontend/public/Gameplay.jpg) | ![Battle placeholder](frontend/public/battle.jpg) |
+
+## Videos
 
 | Main Menu | Gameplay | Battle |
 |-----------|----------|--------|
-| ![Main menu placeholder](frontend/public/placeholder.svg) | ![Gameplay placeholder](frontend/public/placeholder.svg) | ![Battle placeholder](frontend/public/placeholder.svg) |
+| ![Main menu placeholder](frontend/public/Menu.mp4) | ![Gameplay placeholder](frontend/public/Gameplay.mp4) | ![Battle placeholder](frontend/public/Battle.mp4) |
 
 ## Tech Stack
 
