@@ -18,6 +18,18 @@ Shadow Runner is a full-stack web game that combines side-scrolling platforming 
 
 The project includes a React frontend (Canvas rendering), a Spring Boot REST/WebSocket backend, and a PostgreSQL database for levels, accounts, leaderboards, battle logs, and AI training data.
 
+## Screenshots
+
+| Main Menu | Gameplay | Battle |
+|-----------|----------|--------|
+| ![Main menu placeholder](frontend/public/Menu.jpg) | ![Gameplay placeholder](frontend/public/Gameplay.jpg) | ![Battle placeholder](frontend/public/battle.jpg) |
+
+## Videos
+
+| Main Menu | Gameplay | Battle |
+|-----------|----------|--------|
+| ![Main menu placeholder](frontend/public/Menu.gif) | ![Gameplay placeholder](frontend/public/Gameplay.gif) | ![Battle placeholder](frontend/public/Battle.gif) |
+
 ## Features
 
 - **16 hand-authored levels** stored in PostgreSQL (`backend/database_schema.sql`), with procedural fallback generation in the frontend for missing level data
@@ -31,17 +43,6 @@ The project includes a React frontend (Canvas rendering), a Spring Boot REST/Web
 - **Account system** with JWT authentication (Spring Security)
 - **8 player skins** (Shadow, Crimson, Ocean, Forest, Royal, Solar, Blood, Void)
 
-## Screenshots
-
-| Main Menu | Gameplay | Battle |
-|-----------|----------|--------|
-| ![Main menu placeholder](frontend/public/Menu.jpg) | ![Gameplay placeholder](frontend/public/Gameplay.jpg) | ![Battle placeholder](frontend/public/battle.jpg) |
-
-## Videos
-
-| Main Menu | Gameplay | Battle |
-|-----------|----------|--------|
-| ![Main menu placeholder](frontend/public/Menu.gif) | ![Gameplay placeholder](frontend/public/Gameplay.gif) | ![Battle placeholder](frontend/public/Battle.gif) |
 
 ## Tech Stack
 
