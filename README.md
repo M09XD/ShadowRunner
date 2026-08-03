@@ -1,4 +1,5 @@
-# Shadow Runner
+<div align="center">
+## Shadow Runner
 
 > A browser-based platformer with Pokémon-style turn-based battles and an adaptive shadow pursuer.
 
@@ -8,8 +9,7 @@
 ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)
 ![License](https://img.shields.io/badge/license-TBD-lightgrey)
 
-<!-- TODO: Replace with a gameplay screenshot or GIF -->
-<!-- ![Shadow Runner gameplay](docs/screenshots/gameplay.gif) -->
+</div>
 
 ## About
 
