@@ -1,5 +1,6 @@
 <div align="center">
-## Shadow Runner
+
+# Shadow Runner
 
 > A browser-based platformer with Pokémon-style turn-based battles and an adaptive shadow pursuer.
 
