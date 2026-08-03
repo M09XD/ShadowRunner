@@ -34,7 +34,7 @@ The project includes a React frontend (Canvas rendering), a Spring Boot REST/Web
 
 | Main Menu | Gameplay | Battle |
 |-----------|----------|--------|
-| ![Main menu placeholder](Menu.jpg) | ![Gameplay placeholder](frontend/public/Gameplay.jpg) | ![Battle placeholder](frontend/public/battle.jpg) |
+| ![Main menu placeholder](frontend/public/Menu.jpg) | ![Gameplay placeholder](frontend/public/Gameplay.jpg) | ![Battle placeholder](frontend/public/battle.jpg) |
 
 ## Videos
 
