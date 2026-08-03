@@ -1,0 +1,12 @@
+First run this in main file -> 
+./RUN.bat
+
+Second run this in the backend file ->
+java -jar target\shadow-runner-1.0.0.jar
+
+$env:JAVA_HOME = "C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot"; $env:PATH = "C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot\bin;" + $env:PATH; $env:PATH += ";C:\Users\User\.maven\maven-3.9.12(1)\bin"; mvn clean compile
+
+$env:JAVA_HOME = "C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot"; $env:PATH = "C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot\bin;" + $env:PATH; $env:PATH += ";C:\Users\User\.maven\maven-3.9.12(1)\bin"; mvn spring-boot:run
+
+Third run this in the frontend file ->
+npm run dev

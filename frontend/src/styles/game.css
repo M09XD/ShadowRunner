@@ -1,0 +1,215 @@
+/* Shadow Runner Game Styles */
+
+/* Pixelated rendering for sprites */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* Glowing text effect */
+.glow-text {
+  text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+}
+
+/* Pulse animation for warnings */
+@keyframes warning-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+.warning-pulse {
+  animation: warning-pulse 0.5s ease-in-out infinite;
+}
+
+/* Shadow enemy tentacle animation */
+@keyframes tentacle-sway {
+  0%, 100% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+}
+
+.tentacle-animate {
+  animation: tentacle-sway 0.5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+/* HP bar drain animation */
+@keyframes hp-drain {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.hp-bar-animate {
+  background: linear-gradient(90deg, #22c55e, #eab308, #ef4444);
+  background-size: 200% 100%;
+  animation: hp-drain 2s ease-in-out;
+}
+
+/* Battle transition effect */
+@keyframes battle-transition {
+  0% { clip-path: circle(0% at 50% 50%); }
+  100% { clip-path: circle(150% at 50% 50%); }
+}
+
+.battle-transition {
+  animation: battle-transition 0.5s ease-out forwards;
+}
+
+/* Floating animation for particles */
+@keyframes float-up {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+}
+
+.float-particle {
+  animation: float-up 2s ease-out forwards;
+}
+
+/* Shake animation for damage */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Victory confetti */
+@keyframes confetti-fall {
+  0% { transform: translateY(-100vh) rotate(0deg); }
+  100% { transform: translateY(100vh) rotate(720deg); }
+}
+
+.confetti {
+  animation: confetti-fall 3s linear infinite;
+}
+
+/* Game over blood drip */
+@keyframes blood-drip {
+  0% { height: 0; }
+  100% { height: 100px; }
+}
+
+.blood-drip {
+  animation: blood-drip 1s ease-out forwards;
+}
+
+/* Pokemon sprite bounce */
+@keyframes sprite-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.sprite-bounce {
+  animation: sprite-bounce 1s ease-in-out infinite;
+}
+
+/* Move button hover effect */
+.move-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Timer critical state */
+@keyframes timer-critical {
+  0%, 100% { color: #ef4444; transform: scale(1); }
+  50% { color: #fbbf24; transform: scale(1.1); }
+}
+
+.timer-critical {
+  animation: timer-critical 0.5s ease-in-out infinite;
+}
+
+/* Level complete celebration */
+@keyframes celebrate {
+  0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+  50% { transform: scale(1.2) rotate(10deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.celebrate {
+  animation: celebrate 0.5s ease-out forwards;
+}
+
+/* Shadow spawn warning */
+@keyframes shadow-warning {
+  0%, 100% { 
+    background: rgba(255, 0, 0, 0.1);
+    border-color: rgba(255, 0, 0, 0.5);
+  }
+  50% { 
+    background: rgba(255, 0, 0, 0.3);
+    border-color: rgba(255, 0, 0, 1);
+  }
+}
+
+.shadow-warning {
+  animation: shadow-warning 0.5s ease-in-out infinite;
+}
+
+/* Platform glow effect */
+.platform-glow {
+  box-shadow: 0 0 10px rgba(107, 63, 160, 0.5), 0 0 20px rgba(107, 63, 160, 0.3);
+}
+
+/* Exit portal glow */
+@keyframes portal-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 255, 136, 0.5), 0 0 40px rgba(0, 255, 136, 0.3); }
+  50% { box-shadow: 0 0 30px rgba(0, 255, 136, 0.8), 0 0 60px rgba(0, 255, 136, 0.5); }
+}
+
+.portal-glow {
+  animation: portal-glow 2s ease-in-out infinite;
+}
+
+/* Trap spike glow */
+.spike-glow {
+  filter: drop-shadow(0 0 5px rgba(255, 0, 51, 0.8));
+}
+
+/* Loading bar animation */
+@keyframes loading-progress {
+  0% { width: 0%; }
+  50% { width: 70%; }
+  100% { width: 100%; }
+}
+
+.loading-bar {
+  animation: loading-progress 2s ease-in-out infinite;
+}
+
+/* Retro scanline effect */
+.scanlines::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+}
+
+/* CRT screen effect */
+.crt-effect {
+  position: relative;
+}
+
+.crt-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+  pointer-events: none;
+}
