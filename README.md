@@ -18,17 +18,21 @@ Shadow Runner is a full-stack web game that combines side-scrolling platforming 
 
 The project includes a React frontend (Canvas rendering), a Spring Boot REST/WebSocket backend, and a PostgreSQL database for levels, accounts, leaderboards, battle logs, and AI training data.
 
+<div align="center">
+
 ## Screenshots
 
 | Main Menu | Gameplay | Battle |
 |-----------|----------|--------|
 | ![Main menu placeholder](frontend/public/Menu.jpg) | ![Gameplay placeholder](frontend/public/Gameplay.jpg) | ![Battle placeholder](frontend/public/battle.jpg) |
 
-## Videos
+## Clips
 
 | Main Menu | Gameplay | Battle |
 |-----------|----------|--------|
 | ![Main menu placeholder](frontend/public/Menu.gif) | ![Gameplay placeholder](frontend/public/Gameplay.gif) | ![Battle placeholder](frontend/public/Battle.gif) |
+
+</div>
 
 ## Features
 
